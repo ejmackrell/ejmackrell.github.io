@@ -1,5 +1,5 @@
-github_users:
-  - ejmackrell
+github_users: false
+  # - ejmackrell
 
 github_repos:
   - ejmackrell/tidyproteomics-interactive

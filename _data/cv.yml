@@ -105,10 +105,11 @@
         - Gene set enrichment
         - Bayesian inference
 
-    - title: Software environments
+    - title: Programming languages
       items:
         - Python
         - R
+        - Bash
 
     - title: Relevant coursework
       items:
