@@ -111,6 +111,10 @@
         - R
         - Bash
 
+    - title: Software
+      items:
+        - Docker, AWS EC2, Git, scikit-learn, PyTorch
+
     - title: Relevant coursework
       items:
         - "CS/CNS/EE 155: Machine Learning & Data Mining"

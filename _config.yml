@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Elliot MacKrell # the website title (if blank, full name will be used instead)
 first_name: Elliot
 middle_name: J.
 last_name: MacKrell
@@ -267,7 +267,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [MacKrell]
-  first_name: [E.J.]
+  first_name: [Elliot J.]
 
   style: apa
   locale: en
