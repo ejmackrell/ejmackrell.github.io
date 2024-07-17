@@ -11,9 +11,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Candidate, Chemical Engineering
+    - title: Ph.D., Chemical Engineering
       institution: California Institute of Technology<br>Pasadena, CA
-      year: 2016-Present
+      year: 2016-2024
+      description:
+        - "Thesis (Defended 6/20/24): <i>Global Analysis of Protein Synthesis and Degradation in Escherichia coli</i>"
 
     - title: B.S., Chemical Engineering
       institution: University of Florida
@@ -24,23 +26,20 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Ph.D. Candidate, Chemical Engineering
+    - title: Postdoctoral Scholar, Chemical Engineering<br>Ph.D. Candidate, Chemical Engineering
       institution: California Institute of Technology, Pasadena, CA
       year: 2016-Present
       description:
-        - Characterized global regulatory roles of proteolysis in E. coli by combining linear modeling, independent component analysis, ontology enrichment, and regulatory network analysis.
-        - Identified 152 novel endogenous protease substrates in growing and growth-arrested E. coli cells by establishing a quantitative proteomic screen.
-        - Engineered the degradation of a mutant methionyl-tRNA synthetase to enable time-resolved proteomic analysis of transient physiological states in E. coli.
-        - Implicated RNA chaperones and ribosome-binding factors in endoribonuclease-mediated growth arrest through a chemoproteomic analysis in E. coli.
-        - Expanded the substrate scope of the P. furiosus tryptophan synthase β-subunit by assisting in the construction and screening of a directed evolution-based library.
+        - Discovered global regulatory roles of proteolysis by combining chemoproteomic analysis, linear modeling, text mining, and machine learning to identify novel protease substrates in <i>Escherichia coli</i>.
+        - Developed and deployed an open-source interactive application for filtering, normalization, differential expression analysis, and pathway enrichment analysis of mass spectrometry–based proteomics data. (<a href="https://github.com/ejmackrell/tidyproteomics-interactive">repository</a>) (<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05360-7">publication</a>)
+        - Identified DNA repair factors recruited to colibactin-induced DNA interstrand cross-links in Xenopus egg extracts via differential expression analysis and time-series clustering of chromatin mass spectrometry data. (<a href="https://www.biorxiv.org/content/10.1101/2024.01.30.576698v2">preprint</a>)
 
     - title: Bioinformatics Co-op
       institution: EMD Serono, Department of Translational Medicine and Global Clinical Development, Remote
       year: 2022
       description:
-        - Developed Shiny application for visualizing cell type-specific gene expression, identifying differentially expressed genes across cell types and disease states, and conducting gene set enrichment in real time.
-        - Established the semantic association of text-mined ontology terms in PubMed publications through information-theoretic and statistical approaches.
-        - Developed Shiny application for the real-time analysis of text mining data from PubMed to identify genes, pathways, and diseases associated with EMD Serono queries.
+        - Developed Shiny application for visualizing cell type—specific transcript abundance, identifying differentially expressed genes, and conducting gene set enrichment analysis in clinical samples across autoimmune disease states.
+        - Established pipeline and Shiny application for the real-time analysis of text mining data from PubMed to identify genes, pathways, and diseases of therapeutic interest through information-theoretic and statistical approaches.
 
     - title: NSF REU Fellow
       institution: Harvard Medical School, Wellman Center for Photomedicine, Massachusetts General Hospital, Boston MA
@@ -94,11 +93,13 @@
 - title: Skills and Coursework
   type: nested_list
   contents:
-    - title: Computational skills
-      items: 
-        - Bioinformatic and statistical analysis of mass spectrometry-based proteomics data
+    - title: Bioinformatics and statistics
+      items:
+        - Mass spectrometry-based proteomics analysis
+        - RNA-seq analysis
         - Text mining
         - Machine learning
+        - Cloud computing
         - Shiny application development
         - Linear modeling
         - Regulatory network analysis
@@ -111,9 +112,36 @@
         - R
         - Bash
 
-    - title: Software
+    - title: Machine learning
       items:
-        - Docker, AWS EC2, Git, scikit-learn, PyTorch
+        - Scikit-learn
+        - PyTorch
+        - XGBoost
+    
+    - title: Data analysis and visualization
+      items:
+        - Pandas
+        - NumPy
+        - Matplotlib
+        - Seaborn
+        - Jupyter Notebook
+        - Shiny
+        - Bioconductor
+        - tidyverse
+
+    - title: Cloud and development tools
+      items:
+        - Docker
+        - AWS EC2
+        - Git
+        - Visual Studio Code
+        - RStudio
+
+    - title: Software suites
+      items:
+        - GeneData Profiler
+        - Proteomics analysis suites (MaxQuant, Proteome Discoverer)
+        - Clarivate CBDD
 
     - title: Relevant coursework
       items:
