@@ -30,8 +30,8 @@
       institution: California Institute of Technology, Pasadena, CA
       year: 2016-Present
       description:
-        - Discovered global regulatory roles of protein degradation by combining chemoproteomic analysis, linear modeling, text mining, and machine learning to identify 186 novel protease substrates in <i>Escherichia coli</i>.
-        - Developed a predictive machine learning model for <i>in vivo</i> protein stability in <i>E. coli</i>, demonstrating high accuracy (87.5%) with experimental validation of 8 substrates.
+        - Discovered global regulatory roles of protein degradation by combining chemoproteomic analysis, linear modeling, text mining, and machine learning to identify 186 novel protease substrate candidates in <i>Escherichia coli</i>.
+        - Developed a predictive machine learning model for <i>in vivo</i> protein stability in <i>E. coli</i>, achieving 87.5% accuracy in the experimental validation of 8 substrates.
         - Engineered and deployed an open-source interactive application for filtering, normalization, differential expression analysis, and pathway enrichment analysis of mass spectrometry–based proteomics data. (<a href="https://github.com/ejmackrell/tidyproteomics-interactive">repository</a>) (<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05360-7">publication</a>)
         - Identified DNA repair factors recruited to colibactin-induced DNA interstrand cross-links in <i>Xenopus</i> egg extracts via differential expression analysis and time-series clustering of chromatin mass spectrometry data. (<a href="https://www.biorxiv.org/content/10.1101/2024.01.30.576698v2">preprint</a>)
 
@@ -58,7 +58,7 @@
       institution: University of Florida, Department of Chemistry, Gainesville, FL
       year: 2012-2015
       description:
-        - Developed an amphiphilic and pH-responsive copolymer for phloem-specific drug delivery in plants by functionalizing polysuccinimide (PSI) with various hydrophilic molecules.
+        -	Developed an amphiphilic and pH-responsive copolymer for site-specific drug delivery in plants by functionalizing polysuccinimide with hydrophilic molecules.
 
 - title: Open Source Projects
   type: time_table
