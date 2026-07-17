@@ -118,7 +118,80 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2026</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/biorxiv-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/biorxiv-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/biorxiv-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/biorxiv.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="biorxiv.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="Wang2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Chloe Wang, Mehran Karimzadeh, Neal G. Ravindra, and
+          <span class="more-authors" title="click to view 27 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '27 more authors' ? 'Lexi R. Bounds, Nader Alerasool, Ann C. Huang, Shihao Ma, Daniel R. Gulbranson, Haotian Cui, Yongju Lee, Anusuya Arjavalingam, Elliot J. MacKrell, Matthew S. Wilken, Jieming Chen, Benjamin W. Herken, Jesse A. Weber, Massimo M. Onesto, Barbara Gonzalez-Teran, Nicole F. Leung, Sally Yu Shi, Byron J. Smith, Sharon K. Lam, Adam Barner, Philip Wright, Elizabeth M. Rumsey, Soohong Kim, Rene V. Sit, Adam J. Litterman, Ci Chu, Bo Wang' : '27 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">27 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>bioRxiv</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.64898/2026.03.18.712807"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.64898/2026.03.18.712807" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Causal models of cellular systems hold the promise to empower broad biological discovery, including the systematic identification of novel targets for drug discovery. Predicting how genetic and pathway perturbations reshape gene expression across diverse cellular contexts is a prerequisite for building generalizable cellular foundation models. However, current methods typically fail to extrapolate beyond their training distributions because they rely predominantly on observational expression atlases rather than interventional perturbation data. We present X-Atlas/Pisces, the largest genome-wide CRISPRi Perturb-seq compendium to date, comprising 25.6 million perturbed single-cell transcriptomes across 16 biologically diverse contexts, including widely used cell lines, induced pluripotent stem cells (iPSCs), resting and CD3/CD28 activated Jurkat T lymphoma cells, and multi-lineage differentiating iPSCs. Leveraging this resource, we develop X-Cell, a diffusion language model that predicts perturbation responses by iteratively refining control-to-perturbed state transitions through cross-attention to multi-modal biological priors derived from natural language, protein language models, interaction networks, genetic dependency maps, and morphological profiles. X-Cell outperforms existing state-of-the-art models by up to five-fold on key metrics such as Pearson Δ (correlation between predicted and observed perturbation-induced log-fold changes), and demonstrates zero-shot prediction of T cell inactivating perturbations in stimulated Jurkat cells. We scale X-Cell to 4.9 billion parameters (X-Cell-Ultra), the largest causal perturbation model to date. We demonstrate for the first time that perturbation prediction follows power-law scaling with an exponent matching large language models. X-Cell-Ultra demonstrates zero-shot generalization to novel biological contexts, including unseen iPSC-derived melanocyte progenitors and primary human CD4+ T cells from multiple donors, and outperforms all baselines after self-supervised test-time adaptation. These results demonstrate that coordinated scaling of causal perturbation data and model capacity yields foundation models capable of generalizable perturbation prediction across cellular contexts, with potential applications for improving computational target identification, validation, and context-specific therapeutic prioritization.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"></div>
@@ -173,7 +246,8 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2025</h2>
   <ol class="bibliography"><li>
