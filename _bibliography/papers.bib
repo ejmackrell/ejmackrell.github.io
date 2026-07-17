@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{Wang2026,
+  author   = {Chloe Wang and Mehran Karimzadeh and Neal G. Ravindra and Lexi R. Bounds and Nader Alerasool and Ann C. Huang and Shihao Ma and Daniel R. Gulbranson and Haotian Cui and Yongju Lee and Anusuya Arjavalingam and Elliot J. MacKrell and Matthew S. Wilken and Jieming Chen and Benjamin W. Herken and Jesse A. Weber and Massimo M. Onesto and Barbara Gonzalez-Teran and Nicole F. Leung and Sally Yu Shi and Byron J. Smith and Sharon K. Lam and Adam Barner and Philip Wright and Elizabeth M. Rumsey and Soohong Kim and Rene V. Sit and Adam J. Litterman and Ci Chu and Bo Wang},
+  title    = {X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models},
+  journal  = {bioRxiv},
+  preview  = {biorxiv.jpeg},
+  year     = {2026},
+  doi      = {10.64898/2026.03.18.712807},
+  url      = {https://doi.org/10.64898/2026.03.18.712807},
+  html     = {https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1},
+  abstract = {Causal models of cellular systems hold the promise to empower broad biological discovery, including the systematic identification of novel targets for drug discovery. Predicting how genetic and pathway perturbations reshape gene expression across diverse cellular contexts is a prerequisite for building generalizable cellular foundation models. However, current methods typically fail to extrapolate beyond their training distributions because they rely predominantly on observational expression atlases rather than interventional perturbation data. We present X-Atlas/Pisces, the largest genome-wide CRISPRi Perturb-seq compendium to date, comprising 25.6 million perturbed single-cell transcriptomes across 16 biologically diverse contexts, including widely used cell lines, induced pluripotent stem cells (iPSCs), resting and CD3/CD28 activated Jurkat T lymphoma cells, and multi-lineage differentiating iPSCs. Leveraging this resource, we develop X-Cell, a diffusion language model that predicts perturbation responses by iteratively refining control-to-perturbed state transitions through cross-attention to multi-modal biological priors derived from natural language, protein language models, interaction networks, genetic dependency maps, and morphological profiles. X-Cell outperforms existing state-of-the-art models by up to five-fold on key metrics such as Pearson Δ (correlation between predicted and observed perturbation-induced log-fold changes), and demonstrates zero-shot prediction of T cell inactivating perturbations in stimulated Jurkat cells. We scale X-Cell to 4.9 billion parameters (X-Cell-Ultra), the largest causal perturbation model to date. We demonstrate for the first time that perturbation prediction follows power-law scaling with an exponent matching large language models. X-Cell-Ultra demonstrates zero-shot generalization to novel biological contexts, including unseen iPSC-derived melanocyte progenitors and primary human CD4+ T cells from multiple donors, and outperforms all baselines after self-supervised test-time adaptation. These results demonstrate that coordinated scaling of causal perturbation data and model capacity yields foundation models capable of generalizable perturbation prediction across cellular contexts, with potential applications for improving computational target identification, validation, and context-specific therapeutic prioritization.}
+}
+
 @article{MacKrell2026,
   author   = {Elliot J. MacKrell and Brett Lomenick and Yanping Qiu and Hannah Jeckel and Jeff Jones and Tsui-Fen Chou and David A. Tirrell},
   title    = {Global analysis of protein degradation reveals instability of diverse regulators in Escherichia coli},
