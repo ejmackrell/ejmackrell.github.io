@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D., Chemical Engineering @ California Institute of Technology
+subtitle: Bioinformatics Scientist @ Xaira Therapeutics
 
 profile:
   align: right
